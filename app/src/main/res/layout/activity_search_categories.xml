@@ -7,7 +7,7 @@
     tools:context=".SearchCategoriesActivity">
 
     <ScrollView
-        android:id="@+id/scrollView1"
+        android:id="@+id/scrollViewServices"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#333333"

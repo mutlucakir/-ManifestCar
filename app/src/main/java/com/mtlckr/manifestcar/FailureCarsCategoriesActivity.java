@@ -6,17 +6,14 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
-import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
-import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
-
-public class FaliureCarsCategoriesActivity extends AppCompatActivity {
+public class FailureCarsCategoriesActivity extends AppCompatActivity {
 
     ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_faliure_cars_categories);
+        setContentView(R.layout.activity_failure_cars_categories);
 
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 

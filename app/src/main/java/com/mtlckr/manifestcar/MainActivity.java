@@ -9,48 +9,63 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mtlckr.manifestcar.Adapter.MainItem;
+import com.mtlckr.manifestcar.Adapter.MainRecyclerAdapter;
+import com.mtlckr.manifestcar.databinding.ActivityMainBinding;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private ArrayList<MainItem> mainItems = new ArrayList<>();
+    private RecyclerView recyclerView;
+    private MainRecyclerAdapter mainRecyclerAdapter;
 
-    //private RecyclerView rcycler_main;
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-/*
-        rcycler_main = findViewById(R.id.rcycler_main);
-        rcycler_main.setHasFixedSize(true);
-        rcycler_main.setLayoutManager(new LinearLayoutManager(this));
-
-        List<MainItems> mainItemsList = new ArrayList<>();
-
-        mainItemsList.add(new MainItems(R.drawable.ariza,"ARIZA"));
-        mainItemsList.add(new MainItems(R.drawable.servis,"SERVİS"));
-        mainItemsList.add(new MainItems(R.drawable.bakim,"BAKIR"));
-        mainItemsList.add(new MainItems(R.drawable.uyari_bul,"UYARI BUL"));
-        mainItemsList.add(new MainItems(R.drawable.servis,"SERVİS"));
-        mainItemsList.add(new MainItems(R.drawable.bilgi,"BİLGİ"));
-        mainItemsList.add(new MainItems(R.drawable.yol_yardim,"YOL YARDIM"));
-        mainItemsList.add(new MainItems(R.drawable.servis,"SERVİS"));
-        mainItemsList.add(new MainItems(R.drawable.egitici,"EĞİTİCİ"));
-        mainItemsList.add(new MainItems(R.drawable.park_et,"PARK ET"));
-        mainItemsList.add(new MainItems(R.drawable.servis,"SERVİS"));
-        mainItemsList.add(new MainItems(R.drawable.yakit,"YAKIT"));
-        mainItemsList.add(new MainItems(R.drawable.magaza,"MAĞAZA"));
-        mainItemsList.add(new MainItems(R.drawable.servis,"SERVİS"));
-        mainItemsList.add(new MainItems(R.drawable.ara,"ARA"));
-        mainItemsList.add(new MainItems(R.drawable.istek_oneri,"ÖNERİ İSTEK"));
-
-        rcycler_main.setAdapter(new MainAdapter(mainItemsList));
+        /*
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
         */
+        setContentView(R.layout.activity_main);
+        fillTheArray();
+        viewSettings();
+        mainRecyclerAdapter.notifyDataSetChanged();
+        /*
+        Intent intent = getIntent();
+        MainItem selectedMainItem = (MainItem) intent.getSerializableExtra("textMainR");
+        */
+
     }
 
+    private void fillTheArray() {
+        mainItems.add(new MainItem("ARIZA",R.drawable.ariza));
+        mainItems.add(new MainItem("SERVİS",R.drawable.servis));
+        mainItems.add(new MainItem("BAKIM",R.drawable.bakim));
+        mainItems.add(new MainItem("UYARI",R.drawable.uyari_bul));
+        mainItems.add(new MainItem("BİLGİ",R.drawable.bilgi));
+        mainItems.add(new MainItem("YOL YARDIM",R.drawable.yol_yardim));
+        mainItems.add(new MainItem("EĞİTİCİ",R.drawable.egitici));
+        mainItems.add(new MainItem("PARK",R.drawable.park_et));
+        mainItems.add(new MainItem("YAKIT",R.drawable.yakit));
+        mainItems.add(new MainItem("MAĞAZA",R.drawable.magaza));
+        mainItems.add(new MainItem("ARA",R.drawable.ara));
+        mainItems.add(new MainItem("ÖNERİ İSTEK",R.drawable.istek_oneri));
+    }
+
+    private void viewSettings() {
+        recyclerView = findViewById(R.id.recyclerViewMain);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        mainRecyclerAdapter = new MainRecyclerAdapter(mainItems);
+        recyclerView.setAdapter(mainRecyclerAdapter);
+    }
+/*
     public void failure_Main (View view){
-        Intent intent = new Intent(getApplicationContext(), FaliureCarsCategoriesActivity.class);
+        Intent intent = new Intent(getApplicationContext(), FailureCarsCategoriesActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in,R.anim.anim_out);
         // Toast.makeText(this, "TEST", Toast.LENGTH_SHORT).show();
@@ -110,4 +125,5 @@ public class MainActivity extends AppCompatActivity {
     public void advice_Main (View view){
 
     }
+    */
 }
