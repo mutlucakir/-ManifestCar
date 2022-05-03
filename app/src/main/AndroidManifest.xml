@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
+            android:name=".MainCategories.Maintenance.MaintenanceCategoriesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainCategories.Search.SearchCategoriesActivity"
             android:exported="false" />
         <activity
