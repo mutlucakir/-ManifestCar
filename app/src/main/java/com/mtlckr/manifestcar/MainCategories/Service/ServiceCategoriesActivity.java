@@ -1,4 +1,4 @@
-package com.mtlckr.manifestcar;
+package com.mtlckr.manifestcar.MainCategories.Service;
 
 //import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.mtlckr.manifestcar.MainCategories.Service.SubService.PrivateServicesActivity;
+import com.mtlckr.manifestcar.R;
+import com.mtlckr.manifestcar.MainCategories.Service.SubService.TechnicalServicesActivity;
 
 public class ServiceCategoriesActivity extends AppCompatActivity {
 

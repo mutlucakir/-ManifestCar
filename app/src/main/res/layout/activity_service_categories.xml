@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ServiceCategoriesActivity">
+    tools:context=".MainCategories.Service.ServiceCategoriesActivity">
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -42,7 +42,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/yetkili_servis" />
+                    app:srcCompat="@drawable/main_servis_sub_yetkili_servis" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/ozel_servis" />
+                    app:srcCompat="@drawable/main_servis_sub_ozel_servis" />
 
                 <TextView
                     android:layout_width="wrap_content"

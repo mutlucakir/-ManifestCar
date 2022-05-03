@@ -10,28 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
-            android:name=".SearchCategoriesActivity"
+            android:name=".MainCategories.Search.SearchCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".TechnicalServicesActivity"
+            android:name=".MainCategories.Service.SubService.TechnicalServicesActivity"
             android:exported="false" />
         <activity
-            android:name=".PrivateServicesActivity"
+            android:name=".MainCategories.Service.SubService.PrivateServicesActivity"
             android:exported="false" />
         <activity
-            android:name=".ShopCategoriesActivity"
+            android:name=".MainCategories.Shop.ShopCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".ServiceCategoriesActivity"
+            android:name=".MainCategories.Service.ServiceCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".RoadAssistanceCategoriesActivity"
+            android:name=".MainCategories.RoadAssistance.RoadAssistanceCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".ParkingCategoriesActivity"
+            android:name=".MainCategories.Parking.ParkingCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".FailureCarsCategoriesActivity"
+            android:name=".MainCategories.Failure.FailureCarsCategoriesActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

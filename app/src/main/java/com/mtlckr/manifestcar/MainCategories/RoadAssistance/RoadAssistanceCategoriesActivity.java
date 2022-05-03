@@ -1,14 +1,16 @@
-package com.mtlckr.manifestcar;
+package com.mtlckr.manifestcar.MainCategories.RoadAssistance;
 
 //import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ParkingCategoriesActivity extends AppCompatActivity {
+import com.mtlckr.manifestcar.R;
+
+public class RoadAssistanceCategoriesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parking_categories);
+        setContentView(R.layout.activity_road_assistance_categories);
     }
 }

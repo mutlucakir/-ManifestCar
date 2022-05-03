@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShopCategoriesActivity">
+    tools:context=".MainCategories.Shop.ShopCategoriesActivity">
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -41,7 +41,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/oto_ic_aksesuar" />
+                    app:srcCompat="@drawable/shop_oto_ic_aksesuar" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/oto_dis_aksesuar" />
+                    app:srcCompat="@drawable/shop_oto_dis_aksesuar" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/oto_bakim" />
+                    app:srcCompat="@drawable/shop_oto_bakim" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/modifiye" />
+                    app:srcCompat="@drawable/shop_modifiye" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -181,7 +181,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/yedek_parca" />
+                    app:srcCompat="@drawable/shop_yedek_parca" />
 
                 <TextView
                     android:layout_width="wrap_content"
