@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
+            android:name=".MainCategories.Warning.SubWarning.UserGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCategories.Warning.SubWarning.CameraDetectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCategories.Warning.WarningCategoriesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainCategories.Fuel.FuelCategoriesActivity"
             android:exported="false" />
         <activity

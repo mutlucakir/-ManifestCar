@@ -16,6 +16,7 @@ import com.mtlckr.manifestcar.MainCategories.Failure.FailureCarsCategoriesActivi
 import com.mtlckr.manifestcar.MainCategories.Fuel.FuelCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Maintenance.MaintenanceCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Parking.ParkingCategoriesActivity;
+import com.mtlckr.manifestcar.MainCategories.Warning.WarningCategoriesActivity;
 import com.mtlckr.manifestcar.R;
 import com.mtlckr.manifestcar.MainCategories.Search.SearchCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Service.ServiceCategoriesActivity;
@@ -61,6 +62,10 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
                 }
                 else if (position == 2) {   //Bakim
                     Intent intent = new Intent(holder.itemView.getContext(), MaintenanceCategoriesActivity.class);
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                else if (position == 3) {   //Uyari
+                    Intent intent = new Intent(holder.itemView.getContext(), WarningCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
                 else if (position == 7) {   //Park
