@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
+            android:name=".MainCategories.RoadAssistance.SubRoadAssistance.WheelerCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCategories.RoadAssistance.SubRoadAssistance.BatteryCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCategories.RoadAssistance.SubRoadAssistance.TowTrackCategoriesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainCategories.Training.TrainingCategoriesActivity"
             android:exported="false" />
         <activity

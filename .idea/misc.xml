@@ -21,16 +21,19 @@
         <entry key="app/src/main/res/drawable/active_dot.xml" value="0.2435" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.207" />
         <entry key="app/src/main/res/drawable/nonactive_dot.xml" value="0.2435" />
+        <entry key="app/src/main/res/layout/activity_battery_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_camera_detection.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_failure_cars_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_faliure_cars_categories.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_fuel_categories.xml" value="0.30570652173913043" />
+        <entry key="app/src/main/res/layout/activity_informing_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23369565217391305" />
         <entry key="app/src/main/res/layout/activity_maintenance_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_parking_categories.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_road_assistance_categories.xml" value="0.30570652173913043" />
-        <entry key="app/src/main/res/layout/activity_search_categories.xml" value="0.30570652173913043" />
-        <entry key="app/src/main/res/layout/activity_service_categories.xml" value="0.30570652173913043" />
+        <entry key="app/src/main/res/layout/activity_search_categories.xml" value="0.22902232486528099" />
+        <entry key="app/src/main/res/layout/activity_service_categories.xml" value="0.20362765229295005" />
+        <entry key="app/src/main/res/layout/activity_tow_track_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_training_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_user_guide.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_warning_categories.xml" value="0.30570652173913043" />

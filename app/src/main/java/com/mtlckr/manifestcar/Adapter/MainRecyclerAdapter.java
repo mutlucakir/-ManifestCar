@@ -55,7 +55,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
             //Toast.makeText(holder.itemView.getContext(), "pos#"+position, Toast.LENGTH_SHORT).show();
             holder.itemView.getContext().startActivity(intent);
 */
-                if(position == 0){          //Arıza
+                if(position == 0){          //Ariza
                     Intent intent = new Intent(holder.itemView.getContext(), FailureCarsCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
@@ -75,7 +75,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
                     Intent intent = new Intent(holder.itemView.getContext(), InformingCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 5) {   //Yol Yardım
+                else if (position == 5) {   //Yol Yardim
                     Intent intent = new Intent(holder.itemView.getContext(), RoadAssistanceCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
@@ -91,7 +91,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
                     Intent intent = new Intent(holder.itemView.getContext(), FuelCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 9) {   //Mağaza
+                else if (position == 9) {   //Magaza
                     Intent intent = new Intent(holder.itemView.getContext(), ShopCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
