@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.imageview.ShapeableImageView;
 import com.mtlckr.manifestcar.MainCategories.Failure.FailureCarsCategoriesActivity;
+import com.mtlckr.manifestcar.MainCategories.Fuel.FuelCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Maintenance.MaintenanceCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Parking.ParkingCategoriesActivity;
 import com.mtlckr.manifestcar.R;
@@ -64,6 +65,10 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
                 }
                 else if (position == 7) {   //Park
                     Intent intent = new Intent(holder.itemView.getContext(), ParkingCategoriesActivity.class);
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                else if (position == 8) {   //Yakit
+                    Intent intent = new Intent(holder.itemView.getContext(), FuelCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
                 else if (position == 9) {   //Mağaza

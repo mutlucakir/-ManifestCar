@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainCategories.Maintenance.MaintenanceCategoriesActivity"
+    tools:context=".MainCategories.Fuel.FuelCategoriesActivity"
     android:background="#333333">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_maintenance"
+        android:id="@+id/fab_fuel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_add"
