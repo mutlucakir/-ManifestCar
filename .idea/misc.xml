@@ -28,8 +28,10 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23369565217391305" />
         <entry key="app/src/main/res/layout/activity_maintenance_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_parking_categories.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_road_assistance_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_search_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_service_categories.xml" value="0.30570652173913043" />
+        <entry key="app/src/main/res/layout/activity_training_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_user_guide.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_warning_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/custom_layout.xml" value="0.23369565217391305" />

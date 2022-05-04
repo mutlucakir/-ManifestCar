@@ -14,8 +14,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.mtlckr.manifestcar.MainCategories.Failure.FailureCarsCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Fuel.FuelCategoriesActivity;
+import com.mtlckr.manifestcar.MainCategories.Informing.InformingCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Maintenance.MaintenanceCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Parking.ParkingCategoriesActivity;
+import com.mtlckr.manifestcar.MainCategories.RoadAssistance.RoadAssistanceCategoriesActivity;
+import com.mtlckr.manifestcar.MainCategories.Training.TrainingCategoriesActivity;
 import com.mtlckr.manifestcar.MainCategories.Warning.WarningCategoriesActivity;
 import com.mtlckr.manifestcar.R;
 import com.mtlckr.manifestcar.MainCategories.Search.SearchCategoriesActivity;
@@ -66,6 +69,18 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
                 }
                 else if (position == 3) {   //Uyari
                     Intent intent = new Intent(holder.itemView.getContext(), WarningCategoriesActivity.class);
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                else if (position == 4) {   //Bilgi
+                    Intent intent = new Intent(holder.itemView.getContext(), InformingCategoriesActivity.class);
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                else if (position == 5) {   //Yol Yardım
+                    Intent intent = new Intent(holder.itemView.getContext(), RoadAssistanceCategoriesActivity.class);
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                else if (position == 6) {   //Egitici
+                    Intent intent = new Intent(holder.itemView.getContext(), TrainingCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
                 else if (position == 7) {   //Park

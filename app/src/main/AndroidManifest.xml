@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
+            android:name=".MainCategories.Training.TrainingCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCategories.Informing.InformingCategoriesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainCategories.Warning.SubWarning.UserGuideActivity"
             android:exported="false" />
         <activity
