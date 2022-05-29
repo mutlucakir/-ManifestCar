@@ -30,13 +30,16 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23369565217391305" />
         <entry key="app/src/main/res/layout/activity_maintenance_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_parking_categories.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_private_services.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_road_assistance_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_search_categories.xml" value="0.22902232486528099" />
         <entry key="app/src/main/res/layout/activity_service_categories.xml" value="0.20362765229295005" />
+        <entry key="app/src/main/res/layout/activity_technical_services.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_tow_track_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_training_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_user_guide.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_warning_categories.xml" value="0.30570652173913043" />
+        <entry key="app/src/main/res/layout/activity_wheeler_categories.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/custom_layout.xml" value="0.23369565217391305" />
         <entry key="app/src/main/res/layout/main_menu_items.xml" value="0.23369565217391305" />
       </map>

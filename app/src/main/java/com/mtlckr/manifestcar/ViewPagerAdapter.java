@@ -76,7 +76,6 @@ public class ViewPagerAdapter extends PagerAdapter {
                 {
                   //  Toast.makeText(context, "1", Toast.LENGTH_LONG).show();
                 }
-
                 else if (position == 2)
                 {
                   //  Toast.makeText(context, "2", Toast.LENGTH_LONG).show();
@@ -87,7 +86,6 @@ public class ViewPagerAdapter extends PagerAdapter {
                 }
             }
         });
-
 
         ViewPager vp = (ViewPager) container;
         vp.addView(view, 0);

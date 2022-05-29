@@ -55,47 +55,47 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainRecyclerAdapte
             //Toast.makeText(holder.itemView.getContext(), "pos#"+position, Toast.LENGTH_SHORT).show();
             holder.itemView.getContext().startActivity(intent);
 */
-                if(position == 0){          //Ariza
+                if(position == 0){          //Ariza - Failure
                     Intent intent = new Intent(holder.itemView.getContext(), FailureCarsCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 1) {   //Servis
+                else if (position == 1) {   //Servis - Service
                     Intent intent = new Intent(holder.itemView.getContext(), ServiceCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 2) {   //Bakim
+                else if (position == 2) {   //Bakim - Maintenance
                     Intent intent = new Intent(holder.itemView.getContext(), MaintenanceCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 3) {   //Uyari
+                else if (position == 3) {   //Uyari - Warning
                     Intent intent = new Intent(holder.itemView.getContext(), WarningCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 4) {   //Bilgi
+                else if (position == 4) {   //Bilgi - Informing
                     Intent intent = new Intent(holder.itemView.getContext(), InformingCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 5) {   //Yol Yardim
+                else if (position == 5) {   //Yol Yardim - Road Asistance
                     Intent intent = new Intent(holder.itemView.getContext(), RoadAssistanceCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 6) {   //Egitici
+                else if (position == 6) {   //Egitici - Training
                     Intent intent = new Intent(holder.itemView.getContext(), TrainingCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 7) {   //Park
+                else if (position == 7) {   //Park - Parking
                     Intent intent = new Intent(holder.itemView.getContext(), ParkingCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 8) {   //Yakit
+                else if (position == 8) {   //Yakit - Fuel
                     Intent intent = new Intent(holder.itemView.getContext(), FuelCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 9) {   //Magaza
+                else if (position == 9) {   //Magaza - Shop
                     Intent intent = new Intent(holder.itemView.getContext(), ShopCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }
-                else if (position == 10) {   //Ara
+                else if (position == 10) {   //Ara - Search
                     Intent intent = new Intent(holder.itemView.getContext(), SearchCategoriesActivity.class);
                     holder.itemView.getContext().startActivity(intent);
                 }

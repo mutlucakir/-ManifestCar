@@ -41,8 +41,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/benzinlik">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/benzinlik"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -77,8 +76,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/oto_yikama">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/oto_yikama"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -113,8 +111,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/lastik">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/lastik"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -149,8 +146,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/ekspertiz">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/ekspertiz"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -185,8 +181,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/tuning">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/tuning"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -221,8 +216,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/dinlenme_tesisi">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/dinlenme_tesisi"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -257,8 +251,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/anahtar">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/anahtar"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -329,8 +322,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/konaklama">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/konaklama"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -365,8 +357,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/veteriner">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/veteriner"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -401,8 +392,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/feribot">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/feribot"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -437,8 +427,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/hastane">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/hastane"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -509,8 +498,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/karakol">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/karakol"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -545,8 +533,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/taksi_duragi">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/taksi_duragi"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
