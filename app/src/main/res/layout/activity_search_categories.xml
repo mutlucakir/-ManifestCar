@@ -97,6 +97,41 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageView_ParkingArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="182dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/white"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                    app:srcCompat="@drawable/parking_area"></com.google.android.material.imageview.ShapeableImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView_ParkingArea"
+                    android:layout_alignTop="@+id/imageView_ParkingArea"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="120dp"
+                    android:text="PARK ALANI"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold">
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView_Lastik"
                     android:layout_width="wrap_content"
                     android:layout_height="182dp"
@@ -568,8 +603,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-                    app:srcCompat="@drawable/metro">
-                </com.google.android.material.imageview.ShapeableImageView>
+                    app:srcCompat="@drawable/metro"></com.google.android.material.imageview.ShapeableImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -581,8 +615,7 @@
                     android:text="METRO"
                     android:textColor="@color/white"
                     android:textSize="35dp"
-                    android:textStyle="bold">
-                </TextView>
+                    android:textStyle="bold"></TextView>
             </RelativeLayout>
 
         </LinearLayout>
