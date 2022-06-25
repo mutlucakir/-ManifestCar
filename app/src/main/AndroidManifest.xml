@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManifestCar">
         <activity
+            android:name=".MainCategories.Maintenance.AddMaintenanceActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainCategories.Parking.AddParkingActivity"
             android:exported="false" />
         <activity
